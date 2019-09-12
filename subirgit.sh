@@ -44,9 +44,11 @@ then
 	git commit -m " $commit "
 	git push -u origin master
 fi
-
-
-
+if [ $opcion = 3 ];
+then
+	echo "Adios"
+	break
+fi
 
 
 
